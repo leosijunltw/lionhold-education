@@ -5,27 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Learn about Lionhold Education, part of the Cambodian-founded Lionhold group with roots at the University of Cambridge.">
   <meta name="theme-color" content="#eaf0f3">
-  <link rel="icon" href="assets/favicon.ico?v=4" sizes="16x16 32x32 48x48">
-  <link rel="icon" href="assets/lionhold-favicon.png?v=4" type="image/png" sizes="256x256">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=4">
+  <link rel="icon" href="assets/favicon.svg?v=5" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico?v=5" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="assets/lionhold-favicon.png?v=5" type="image/png" sizes="256x256">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=5">
   <title>About Us | Lionhold Education</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=1">
-  <link rel="stylesheet" href="education.css?v=1">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Noto+Serif+Khmer:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="education.css?v=2">
 </head>
 <body class="tinted" style="--photo:url(assets/bg-about-flag.jpg);--band1:url(assets/bg-about-flag.jpg);--band2:none;--foot:none">
   <header class="site-header" id="top">
     <a class="brand" href="index.html" aria-label="Lionhold Education home">
-      <img class="brand-emblem" src="assets/lionhold-emblem.png" alt="" width="256" height="256">
-      <span class="brand-text"><strong>Lionhold</strong><em>Education</em></span>
+      <img class="brand-emblem" src="assets/lionhold-book-emblem.svg?v=2" alt="" width="240" height="168">
+      <span class="brand-text" lang="km"><strong>ឡាយអិនហូលដ៍</strong><em>អប់រំ</em></span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="platform.html">AI platform</a>
-      <a href="services.html">Services</a>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="platform.html">Students</a>
+        <div class="dropdown">
+          <a href="platform.html">AI platform</a>
+          <a href="services.html#university">University application support</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="services.html#schools">Schools</a>
+        <div class="dropdown">
+          <a href="services.html#education-consulting">Education consulting</a>
+          <a href="services.html#operations-consulting">Operations consulting</a>
+          <a href="services.html#technology-consulting">Technology consulting</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="services.html#jobs">Job applicants</a>
+        <div class="dropdown">
+          <a href="services.html#cvs">CVs and cover letters</a>
+          <a href="services.html#interviews">Interview preparation</a>
+          <a href="services.html#job-search">Job search strategy</a>
+        </div>
+      </div>
       <a href="about.html" aria-current="page">About us</a>
       <a href="team.html">Meet the team</a>
       <a class="nav-cta" href="index.html#contact">Contact us</a>
@@ -75,13 +97,13 @@
   </main>
 
   <footer>
-    <div class="footer-brand">
-      <img class="brand-emblem" src="assets/lionhold-emblem.png" alt="" width="256" height="256">
-      <span class="brand-text"><strong>Lionhold</strong><em>Education</em></span>
+    <div class="footer-brand" lang="km">
+      <img class="brand-emblem" src="assets/lionhold-book-emblem.svg?v=2" alt="" width="240" height="168">
+      <span class="brand-text"><strong>ឡាយអិនហូលដ៍</strong><em>អប់រំ</em></span>
     </div>
     <p>Cambodian-founded, internationally informed.</p>
     <div class="footer-meta"><a class="footer-linkedin" href="https://lionholdcapital.com" target="_blank" rel="noopener noreferrer" aria-label="Lionhold Capital, part of the Lionhold group">Lionhold Capital <span aria-hidden="true">↗</span></a><p>© <span id="year"></span> Lionhold Education. All rights reserved.</p></div>
   </footer>
-  <script src="script.js?v=1"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>

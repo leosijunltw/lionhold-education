@@ -24,6 +24,31 @@ Text sits on the **left** of every header, so keep the left half of each picture
 - **Services:** a mentor and student reviewing documents, a graduation scene, a school leadership meeting, or Phnom Penh campuses.
 - **Contact band:** Phnom Penh skyline at dusk (Lionhold Capital's `hero-still-2.jpg` would fit well).
 
+## Home hero video shortlist
+
+Picked from titles only, so preview each one before choosing, and check that the people and setting suit a Cambodian audience. All are free stock; confirm the licence on each page before using it.
+
+**Classrooms and school life (Pexels)**
+- [Children sitting in the classroom](https://www.pexels.com/video/children-sitting-in-the-classroom-3968532/)
+- [Children walking together while going to school](https://www.pexels.com/video/children-walking-together-while-going-to-school-6740266/)
+- [Teacher and a group of schoolchildren on a field trip](https://www.pexels.com/video/teacher-and-a-group-of-schoolchildren-on-a-field-trip-12724048/)
+- [People at a graduation ceremony](https://www.pexels.com/video/people-at-a-graduation-ceremony-3969241/)
+
+**Studying and campus (Mixkit)**
+- [Students studying on a bench](https://mixkit.co/free-stock-video/students-studying-on-a-bench-4566/)
+- [Young students copying the blackboard in a classroom](https://mixkit.co/free-stock-video/young-students-copying-the-blackboard-in-a-classroom-28315/)
+- [A student making notes and mathematical charts on the notebook](https://mixkit.co/free-stock-video/a-student-making-notes-and-mathematical-charts-on-the-notebook-50109/)
+- [Teacher points to a mathematical chart over the student notebook](https://mixkit.co/free-stock-video/teacher-points-with-his-finger-to-a-mathematical-chart-over-50114/)
+- [Kid focused on homework at laptop](https://mixkit.co/free-stock-video/kid-focused-on-homework-at-laptop-101330/)
+- More: [students](https://mixkit.co/free-stock-video/students/) (for example "Students walking in a university") and [studying](https://mixkit.co/free-stock-video/studying/)
+
+**Cambodia and Phnom Penh (Pexels)**
+- [Aerial view of Phnom Penh at twilight](https://www.pexels.com/video/aerial-view-of-phnom-penh-at-twilight-32934306/)
+- [Aerial view of Phnom Penh's Royal Palace](https://www.pexels.com/video/aerial-view-of-phnom-penh-s-royal-palace-32926998/)
+- [Aerial view of bustling Phnom Penh skyline at sunset](https://www.pexels.com/video/aerial-view-of-bustling-phnom-penh-skyline-at-sunset-32927069/)
+
+The Capital site already opens on Phnom Penh footage, so a classroom or campus clip will make Education feel distinct.
+
 ## Where to find them
 
 Free-to-use libraries (always check the licence on each individual item before using it commercially, and keep a note of the source):

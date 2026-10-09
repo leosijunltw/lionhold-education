@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Meet the founders behind Lionhold Education, with experience across finance, data and AI.">
   <meta name="theme-color" content="#eaf0f3">
-  <link rel="icon" href="assets/favicon.ico?v=4" sizes="16x16 32x32 48x48">
-  <link rel="icon" href="assets/lionhold-favicon.png?v=4" type="image/png" sizes="256x256">
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=4">
+  <link rel="icon" href="assets/favicon.svg?v=5" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico?v=5" sizes="16x16 32x32 48x48">
+  <link rel="icon" href="assets/lionhold-favicon.png?v=5" type="image/png" sizes="256x256">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=5">
   <title>Meet the Team | Lionhold Education</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=1">
-  <link rel="stylesheet" href="education.css?v=1">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Noto+Serif+Khmer:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="education.css?v=2">
   <style>
     .team-person{min-width:0}
     .team-person .profile-links{display:flex!important;flex-direction:column!important;align-items:flex-start!important;gap:12px!important;width:100%!important;margin:20px 0 0!important}
@@ -26,14 +27,35 @@
 <body class="plain" style="--photo:url(assets/bg-team-aerial.jpg);--band1:none;--band2:none;--foot:none">
   <header class="site-header" id="top">
     <a class="brand" href="index.html" aria-label="Lionhold Education home">
-      <img class="brand-emblem" src="assets/lionhold-emblem.png" alt="" width="256" height="256">
-      <span class="brand-text"><strong>Lionhold</strong><em>Education</em></span>
+      <img class="brand-emblem" src="assets/lionhold-book-emblem.svg?v=2" alt="" width="240" height="168">
+      <span class="brand-text" lang="km"><strong>ឡាយអិនហូលដ៍</strong><em>អប់រំ</em></span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="platform.html">AI platform</a>
-      <a href="services.html">Services</a>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="platform.html">Students</a>
+        <div class="dropdown">
+          <a href="platform.html">AI platform</a>
+          <a href="services.html#university">University application support</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="services.html#schools">Schools</a>
+        <div class="dropdown">
+          <a href="services.html#education-consulting">Education consulting</a>
+          <a href="services.html#operations-consulting">Operations consulting</a>
+          <a href="services.html#technology-consulting">Technology consulting</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <a class="nav-trigger" href="services.html#jobs">Job applicants</a>
+        <div class="dropdown">
+          <a href="services.html#cvs">CVs and cover letters</a>
+          <a href="services.html#interviews">Interview preparation</a>
+          <a href="services.html#job-search">Job search strategy</a>
+        </div>
+      </div>
       <a href="about.html">About us</a>
       <a href="team.html" aria-current="page">Meet the team</a>
       <a class="nav-cta" href="index.html#contact">Contact us</a>
@@ -67,8 +89,8 @@
             <p class="team-role">Co-founder &amp; Chief Executive Officer</p>
             <h3>Sovichea Tat</h3>
             <div class="team-bio">
-              <div class="bio-column"><p class="bio-heading">Experience</p><p>Formerly an Investment Banker at <em>Tarafi Capital</em> in London, Sovichea brings investment expertise. Combined with experience in Audit at <em>Grant Thornton UK</em> and in Capital Markets at <em>Lloyds Bank</em> in London, Vichea possesses a core understanding of accountancy and regulatory systems in both Cambodia and the UK.</p></div>
               <div class="bio-column"><p class="bio-heading">Education</p><p>Sovichea holds a Master of Finance from the <em>University of Cambridge</em>, having received the prestigious WiF Scholarship, awarded to only two individuals globally.</p></div>
+              <div class="bio-column"><p class="bio-heading">Experience</p><p>Formerly an Investment Banker at <em>Tarafi Capital</em> in London, Sovichea brings investment expertise. Combined with experience in Audit at <em>Grant Thornton UK</em> and in Capital Markets at <em>Lloyds Bank</em> in London, Vichea possesses a core understanding of accountancy and regulatory systems in both Cambodia and the UK.</p></div>
             </div>
           </div>
         </article>
@@ -84,8 +106,8 @@
             <p class="team-role">Co-founder &amp; Managing Director, Technology &amp; AI</p>
             <h3>Sochet (Leo) Liu</h3>
             <div class="team-bio">
-              <div class="bio-column"><p class="bio-heading">Experience</p><p>Previously an AI Researcher at <em>Google</em> in New York, and a Lead AI Engineer at <em>Microsoft</em> in London, Sochet brings deep technical capability across AI, developing customised AI solutions for automation and large-scale analysis.</p></div>
               <div class="bio-column"><p class="bio-heading">Education</p><p>Sochet holds a Master of Statistics from the <em>University of Cambridge</em>, where he received a $65,000 academic scholarship, and a Bachelor of Economics from the <em>London School of Economics and Political Science (LSE)</em>, graduating one year early due to high exam performance.</p></div>
+              <div class="bio-column"><p class="bio-heading">Experience</p><p>Previously an AI Researcher at <em>Google</em> in New York, and a Lead AI Engineer at <em>Microsoft</em> in London, Sochet brings deep technical capability across AI, developing customised AI solutions for automation and large-scale analysis.</p></div>
             </div>
           </div>
         </article>
@@ -101,8 +123,8 @@
             <p class="team-role">Co-founder &amp; Managing Director, Finance</p>
             <h3>Chorlopun Tath</h3>
             <div class="team-bio">
-              <div class="bio-column"><p class="bio-heading">Experience</p><p>Previous experience spans two years as a Data Engineer at <em>Nationwide Building Society</em> in London and real estate valuations at <em>IPS Cambodia</em> in Phnom Penh. With his experience in both finance and engineering, Chorlopun bridges the gap between investment and AI.</p></div>
               <div class="bio-column"><p class="bio-heading">Education</p><p>Chorlopun holds a Bachelor of Accounting and Finance with first-class honours from <em>Bayes Business School</em> (formerly <em>Cass Business School</em>).</p></div>
+              <div class="bio-column"><p class="bio-heading">Experience</p><p>Previous experience spans two years as a Data Engineer at <em>Nationwide Building Society</em> in London and real estate valuations at <em>IPS Cambodia</em> in Phnom Penh. With his experience in both finance and engineering, Chorlopun bridges the gap between investment and AI.</p></div>
             </div>
           </div>
         </article>
@@ -117,13 +139,13 @@
   </main>
 
   <footer>
-    <div class="footer-brand">
-      <img class="brand-emblem" src="assets/lionhold-emblem.png" alt="" width="256" height="256">
-      <span class="brand-text"><strong>Lionhold</strong><em>Education</em></span>
+    <div class="footer-brand" lang="km">
+      <img class="brand-emblem" src="assets/lionhold-book-emblem.svg?v=2" alt="" width="240" height="168">
+      <span class="brand-text"><strong>ឡាយអិនហូលដ៍</strong><em>អប់រំ</em></span>
     </div>
     <p>Education, technology and guidance for students and schools.</p>
     <div class="footer-meta"><a class="footer-linkedin" href="https://lionholdcapital.com" target="_blank" rel="noopener noreferrer" aria-label="Lionhold Capital, part of the Lionhold group">Lionhold Capital <span aria-hidden="true">↗</span></a><p>© <span id="year"></span> Lionhold Education. All rights reserved.</p></div>
   </footer>
-  <script src="script.js?v=1"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
