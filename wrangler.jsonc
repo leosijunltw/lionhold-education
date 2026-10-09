@@ -1,0 +1,8 @@
+{
+  // Serves this folder as a static site on Cloudflare Workers.
+  "name": "lionhold-education",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  }
+}
