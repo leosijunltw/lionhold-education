@@ -1,0 +1,45 @@
+/* Lionhold Education — additions on top of the shared Lionhold design in styles.css */
+
+/* ---- Brand lockup: group emblem + text (replaces the image lockup that says "Capital") ---- */
+.brand{gap:14px}
+.brand-emblem{display:block;width:58px;height:58px;flex:0 0 auto}
+.brand-text{display:flex;flex-direction:column;justify-content:center;line-height:1}
+.brand-text strong{display:block;font-family:var(--serif);font-weight:400;font-size:23px;line-height:1;letter-spacing:.16em;text-transform:uppercase;color:#f3eee2}
+.brand-text em{display:block;font-style:normal;font-family:var(--serif);font-size:15px;line-height:1;letter-spacing:.42em;text-transform:uppercase;color:#c9a75d;margin-top:7px}
+.footer-brand{display:flex;align-items:center;gap:12px}
+.footer-brand .brand-emblem{width:46px;height:46px}
+.footer-brand .brand-text strong{font-size:19px;color:#f3eee2}
+.footer-brand .brand-text em{font-size:12px;margin-top:6px}
+@media(max-width:560px){
+  .brand{gap:10px}
+  .brand-emblem{width:46px;height:46px}
+  .brand-text strong{font-size:18px}
+  .brand-text em{font-size:12px;letter-spacing:.34em;margin-top:6px}
+}
+
+/* ---- Small components ---- */
+.card-link{display:inline-block;margin-top:24px;font-size:14px;font-weight:500;color:var(--navy);border-bottom:1px solid currentColor;padding-bottom:3px}
+.card-link:hover{color:var(--gold)}
+.service-grid-dark .card-link,.technology .card-link{color:#fff}
+.service-grid-dark .card-link:hover,.technology .card-link:hover{color:#e2c27a}
+.status-pill{display:inline-flex;align-items:center;gap:10px;border:1px solid rgba(201,167,93,.65);color:#e2c27a;padding:8px 16px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;margin:0 0 26px}
+.status-pill:before{content:"";width:8px;height:8px;border-radius:50%;background:#e2c27a;animation:pill-pulse 2.4s ease-in-out infinite}
+@keyframes pill-pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.status-pill:before{animation:none}}
+.tech-copy .button{margin-top:34px}
+.tech-copy .button-primary,.hero .button-primary{background:#fff;color:var(--navy)}
+.tech-copy .button-primary:hover{background:#c9a85c}
+.group-note{margin:26px 0 0;font-size:14px;color:#e2c27a}
+.group-note a{border-bottom:1px solid rgba(226,194,122,.6);padding-bottom:2px}
+.group-note a:hover{color:#fff;border-color:#fff}
+.footer-meta p:first-child{margin:0}
+
+/* Offerings grid on the home page: keep the four cards even */
+.offer-grid .capability-card{min-height:300px;display:flex;flex-direction:column;align-items:flex-start}
+.offer-grid .capability-card .card-link{margin-top:auto}
+
+/* Status pill inside photo page headers (beats the shared page-hero paragraph colour rules) */
+.page-hero .page-hero-copy p.status-pill{color:#e2c27a!important;font-size:12px;margin:0 0 22px}
+
+/* Anchor targets sit below the fixed header */
+[id="university"],[id="jobs"],[id="schools"],[id="how"],[id="contact"],[id="technology"]{scroll-margin-top:100px}

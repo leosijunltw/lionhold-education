@@ -1,0 +1,38 @@
+# Lionhold Education website
+
+A dependency-free static website for Lionhold Education, part of the Lionhold group. It shares its design with the Lionhold Capital website.
+
+Pages: Home (`index.html`), AI platform (`platform.html`), Services (`services.html`), About us (`about.html`) and Meet the team (`team.html`).
+
+## Preview locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Deploy to Cloudflare Pages
+
+1. In Cloudflare, open **Workers & Pages → Create → Pages → Connect to Git**.
+2. Select this repository.
+3. Leave the **build command** blank and set the **build output directory** to `/` (or leave it empty).
+4. Deploy. Cloudflare gives you a free `*.pages.dev` address, and you can attach your own domain afterwards under **Custom domains**.
+
+## Pictures and videos
+
+See [MEDIA.md](MEDIA.md). The site currently uses placeholder images and videos; replace files in `assets/` with the same names.
+
+## Before launch
+
+- **Contact email:** every page currently uses `info@lionholdcapital.com`. Search the repo for it and swap in an education address when you have one.
+- **Company details:** add your registered company name, address and any required legal notices or privacy policy.
+- **Khmer logo:** the header logo is the group emblem with "Lionhold Education" set in text. Replace it with a designed lockup (with the Khmer name) when you have one.
+- **Team roles:** the Meet the team page is copied from Lionhold Capital. Update titles if they differ at Lionhold Education.
+- **AI platform status:** the site says the platform is "In development". Update the wording when it launches.
+
+## Files
+
+- `styles.css`: the shared Lionhold design (from the Capital site).
+- `education.css`: Lionhold Education additions (logo, status pill, card links).
+- `script.js`: menu, scroll effects and footer year.
