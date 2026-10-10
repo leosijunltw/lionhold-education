@@ -264,3 +264,12 @@ html body.tinted main section.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg
 /* keep the wordmark readable inside any paragraph or card */
 .lhai,.value-grid .lhai,.capability-card .lhai,.page-hero .lhai{font-family:var(--serif)!important;font-size:1.1em!important;letter-spacing:.01em!important;text-transform:none!important;color:inherit}
 .eyebrow .lhai,.section-kicker .lhai{font-size:1.15em!important;letter-spacing:.04em!important}
+
+/* ---- "Meet LionholdAI" banner at the top of the home AI section ---- */
+.ai-banner{grid-column:1/-1;text-align:center;padding:clamp(70px,9vw,130px) 24px 0}
+.ai-banner p{margin:0}
+.ai-banner-meet{font-size:clamp(14px,1.4vw,18px);font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:#e2c27a}
+.ai-banner-name{margin-top:6px!important;font-size:clamp(56px,13vw,200px);line-height:1;color:#fff}
+.ai-banner .lhai,.ai-banner-name .lhai{font-size:1em!important;letter-spacing:-.01em!important;color:#fff}
+.ai-banner .lhai i{color:#e2c27a}
+.ai-preview .tech-copy{padding-top:clamp(36px,5vw,64px)}
