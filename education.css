@@ -273,3 +273,10 @@ html body.tinted main section.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg
 .ai-banner .lhai,.ai-banner-name .lhai{font-size:1em!important;letter-spacing:-.01em!important;color:#fff}
 .ai-banner .lhai i{color:#e2c27a}
 .ai-preview .tech-copy{padding-top:clamp(36px,5vw,64px)}
+
+/* ---- Ribbon colour: deep evergreen (picks up the green chairs in the hero video; Lionhold Capital uses navy) ---- */
+:root{--ribbon-rgb:14,58,50;--ribbon:#0e3a32;--ribbon-deep-rgb:6,32,27}
+.site-header{background:linear-gradient(180deg,rgba(var(--ribbon-deep-rgb),.66),rgba(var(--ribbon-deep-rgb),0))}
+.site-header.scrolled{background:rgba(var(--ribbon-rgb),.9)}
+.dropdown{background:#0f3d34}
+@media(max-width:1120px){.site-header nav{background:rgba(var(--ribbon-rgb),.97)}}
