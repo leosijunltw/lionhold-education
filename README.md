@@ -2,7 +2,7 @@
 
 A dependency-free static website for Lionhold Education, part of the Lionhold group. It shares its design with the Lionhold Capital website.
 
-Pages: Home (`index.html`), AI platform (`platform.html`), Services (`services.html`), About us (`about.html`) and Meet the team (`team.html`).
+Pages: Home (`index.html`), AI platform (`platform.html`), University application support (`university.html`), School consulting (`schools.html`), Job application support (`jobs.html`), About us (`about.html`) and Meet the team (`team.html`).
 
 ## Preview locally
 
