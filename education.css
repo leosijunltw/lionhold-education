@@ -246,3 +246,21 @@ html body.tinted main section.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg-dark.pg
   .journey:before{left:21px}.journey li{grid-template-columns:44px 1fr}.journey-dot{width:44px;height:44px;font-size:18px}
   .pipeline{grid-template-columns:repeat(2,1fr)}
 }
+
+/* ---- lh.ai: product wordmark and navigation emphasis ---- */
+.lhai{font-family:var(--serif);font-weight:400;letter-spacing:.01em;text-transform:none;white-space:nowrap}
+.lhai i{font-style:normal;color:#c9a85c}
+.eyebrow .lhai{font-size:1.25em;letter-spacing:.04em}
+.lede .lhai,.tech-copy p .lhai,.statement-copy .lhai{font-size:1.1em}
+.statement-copy .lhai i{color:var(--gold)}
+.site-header nav a.nav-lhai{font-weight:600;color:#e2c27a;letter-spacing:.03em}
+.site-header nav a.nav-lhai:hover{color:#fff}
+.site-header nav a.nav-lhai[aria-current="page"]{color:#e2c27a}
+.tech-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px}
+.tech-actions .text-link{color:#fff}
+.page-hero .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;margin-top:28px}
+.page-hero .hero-actions .text-link{color:#fff}
+.page-hero-copy>p.page-lede{font-size:clamp(18px,1.7vw,22px);max-width:720px;margin:32px 0 0}
+/* keep the wordmark readable inside any paragraph or card */
+.lhai,.value-grid .lhai,.capability-card .lhai,.page-hero .lhai{font-family:var(--serif)!important;font-size:1.12em!important;letter-spacing:.01em!important;text-transform:none!important;color:inherit}
+.eyebrow .lhai,.section-kicker .lhai{font-size:1.3em!important;letter-spacing:.04em!important}
