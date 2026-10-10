@@ -14,10 +14,6 @@
       <stop offset=".35" stop-color="#fbf0cf"/>
       <stop offset="1" stop-color="#fffaf0"/>
     </linearGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e0a52c"/>
-      <stop offset="1" stop-color="#8f6212"/>
-    </linearGradient>
   </defs>
   <!-- cover -->
   <path d="M12 70 C54 48 102 54 128 80 C154 54 202 48 244 70 L244 198 C202 176 154 182 128 208 C102 182 54 176 12 198 Z" fill="url(#cover)"/>
@@ -34,6 +30,4 @@
     <path d="M218 98 C200 90 180 90 164 96"/>
     <path d="M218 112 C204 106 190 106 178 110"/>
   </g>
-  <!-- the L -->
-  <path d="M120.64 168.78H147.8Q150.96 164.53 153.04 160.22Q155.11 155.91 157.73 149.47H163.4L158.82 175H92.6V170.96L101.87 168.89V97.11L92.6 95.04V91H130.89V95.04L120.64 97.22Z" fill="url(#ink)"/>
 </svg>

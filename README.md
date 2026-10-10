@@ -27,7 +27,7 @@ See [MEDIA.md](MEDIA.md). The site currently uses placeholder images and videos;
 
 - **Contact email:** every page currently uses `info@lionholdcapital.com`. Search the repo for it and swap in an education address when you have one.
 - **Company details:** add your registered company name, address and any required legal notices or privacy policy.
-- **Khmer name:** the logo is an L on an open book with the name written in Khmer text ("ឡាយអិនហូលដ៍" is copied from the Capital logo; "អប់រំ" for Education is my choice). Have a Khmer speaker confirm the wording. To change it, edit the `brand-text` spans in each page.
+- **Khmer name:** the logo is an open book with the name written in Khmer text ("ឡាយអិនហូលដ៍" is copied from the Capital logo; "អប់រំ" for Education is my choice). Have a Khmer speaker confirm the wording. To change it, edit the `brand-text` spans in each page.
 - **Team roles:** the Meet the team page is copied from Lionhold Capital. Update titles if they differ at Lionhold Education.
 - **AI platform status:** the site says the platform is "In development". Update the wording when it launches.
 

@@ -3,19 +3,22 @@
 /* ---- Brand lockup: book emblem (an L on an open book) + the name written in Khmer ---- */
 .brand{gap:14px}
 .brand-emblem{display:block;width:auto;height:54px;flex:0 0 auto}
-.brand-text,.footer-brand .brand-text{display:flex;flex-direction:column;justify-content:center;margin:0;font-size:inherit;letter-spacing:0;text-transform:none}
+.brand-text,.footer-brand .brand-text{display:flex;flex-direction:column;justify-content:center;align-items:stretch;margin:0;font-size:inherit;letter-spacing:0;text-transform:none}
 .brand-text strong,.brand-text em{display:block;font-family:"Noto Serif Khmer","Khmer OS System","Leelawadee UI","Khmer UI",serif;font-style:normal;font-weight:600;letter-spacing:0;text-transform:none;white-space:nowrap}
-.brand-text strong{font-size:23px;line-height:1.4;color:#f3eee2}
-.brand-text em{font-size:19px;line-height:1.4;color:#c9a75d}
+.brand-text strong{font-size:23px;line-height:1.35;color:#f3eee2;text-align:center}
+/* The short word sits centred under the long one, with thin gold rules filling the rest of the width so both lines are the same length */
+.brand-text em{display:flex;align-items:center;gap:10px;font-size:17px;line-height:1.3;color:#c9a75d}
+.brand-text em:before,.brand-text em:after{content:"";flex:1 1 0;height:1px;background:linear-gradient(90deg,transparent,#c9a75d)}
+.brand-text em:after{background:linear-gradient(270deg,transparent,#c9a75d)}
 .footer-brand{display:flex;align-items:center;gap:12px}
 .footer-brand .brand-emblem{width:auto;height:44px}
 .footer-brand .brand-text strong{font-size:19px}
-.footer-brand .brand-text em{font-size:16px}
+.footer-brand .brand-text em{font-size:15px}
 @media(max-width:560px){
   .brand{gap:10px}
   .brand-emblem{width:auto;height:44px}
   .brand-text strong{font-size:19px}
-  .brand-text em{font-size:16px}
+  .brand-text em{font-size:15px}
 }
 
 /* ---- Top navigation dropdowns (Students, Schools, Job applicants) ---- */
